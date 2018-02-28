@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image2]: ./output_imagesWrite.md/canny_edges.jpg "Grayscale"
+[image2]: ./output_imagesWrite.md/gray.jpg "Grayscale"
 
 ---
 
