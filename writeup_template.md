@@ -22,39 +22,34 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image2]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+[image2]: ./output_imagesWrite.md/gaussian_Blur.jpg "Grayscale"
 
 ---
 
 [//]: # (Image References)
 
-[image3]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+[image3]: ./output_imagesWrite.md/canny_edges.jpg "Grayscale"
 
 ---
 
 [//]: # (Image References)
 
-[image4]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+[image4]: ./output_imagesWrite.md/masked_image.jpg "Grayscale"
 
 ---
 
 [//]: # (Image References)
 
-[image5]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+[image5]: ./output_imagesWrite.md/final.jpg "Grayscale"
 
 ---
 
 [//]: # (Image References)
 
-[image6]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+[image6]: ./output_imagesWrite.md/hough+extrapolation.jpg "Grayscale"
 
 ---
 
-[//]: # (Image References)
-
-[image7]: ./output_imagesWrite.md/gray.jpg "Grayscale"
-
----
 
 ### Reflection
 
@@ -80,6 +75,9 @@ My pipeline consisted of 5 steps. The step5 covers the explanation of draw_lines
     d. the maxY = height of the image and the minY is found through iteration .
     e. Finally we substitute, the mean values and calculted X values to finally calculate the X coordinates.
     f. Finally with calculated X coordiantes and y , we draw the lines.
+    
+    
+![alt text][image5]    
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
