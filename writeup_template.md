@@ -16,7 +16,12 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-
+[image2]: ./output_imagesWrite.md/canny_edges.jpg "canny_edges"
+[image3]: ./output_imagesWrite.md/gray.jpg "gray"
+[image4]: ./output_imagesWrite.md/masked_image.jpg "masked_image"
+[image5]: ./output_imagesWrite.md/gaussian_Blur.jpg "gaussaian_Blur"
+[image6]: ./output_imagesWrite.md/final.jpg "final"
+[image7]: ./output_imagesWrite.md/hough+extrapolation.jpg "hough+extra"
 ---
 
 ### Reflection
@@ -49,6 +54,12 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 ![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
+![alt text][image6]
+![alt text][image7]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
