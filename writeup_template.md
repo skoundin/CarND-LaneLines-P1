@@ -90,9 +90,12 @@ So we mask the image, use fillPoly function to fill the pixels inside the image 
     f. Finally with calculated X coordiantes and y , we draw the lines.
  
  The image  after applying hough tranform and extrapolation is shown below:
+ 
  ![alt text][image6]
  
- 6.Finally we add the original image to the lines obatained through extrapolation as mentioned in point 5. And below is the output.
+ 6.Finally we add the original image to the lines obatained through extrapolation as mentioned in point 5. 
+ And below is the output.
+ 
  ![alt text][image5]    
 
 
