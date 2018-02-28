@@ -22,20 +22,58 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image2]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+[image2]: ./output_imagesWrite.md/gaussian_Blur.jpg "Grayscale"
 
 ---
+
+[//]: # (Image References)
+
+[image3]: ./output_imagesWrite.md/canny_edges.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image4]: ./output_imagesWrite.md/masked_image.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image5]: ./output_imagesWrite.md/final.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image6]: ./output_imagesWrite.md/hough+extrapolation.jpg "Grayscale"
+
+---
+
 
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. The step5 covers the explanation of draw_lines function was modified.
+My pipeline consisted of 6 steps. The step5 covers the explanation of draw_lines function was modified.
 
-1. First, I converted the input image to grayscale image.
-2. Then gaussian blur was applied to reduce the noise.
-3. After the gausian blur,  cany edge detection Algorithm was applied to detect edges from the blurred image.
+1. First, I converted the input image to grayscale image. The image is shown below:
+
+ ![alt text][image1]
+
+2. Then gaussian blur was applied to reduce the noise. The output of the gausiian image is :
+
+![alt text][image2]
+
+3. After the gausian blur,  cany edge detection Algorithm was applied to detect edges from the blurred image. Canny edge detection helps to provide edges in an image. 
+
+![alt text][image3]
+
 4. The next step was to calculate the are of interest. We need to ignore the surroundings and only choose area of the lane.
+So we mask the image, use fillPoly function to fill the pixels inside the image given by the vertices.
+
+![alt text][image4]
+
 5. Finally after selecting the area of interest, it was the most interesting and challenging aspect of the project.
    Hough Transform and the extrapolation of the lines. Initially Hough transform was applied using inbuilt openCV functions.
    Then the algorithm for extrapolation of lines was developed. 
@@ -50,16 +88,16 @@ My pipeline consisted of 5 steps. The step5 covers the explanation of draw_lines
     d. the maxY = height of the image and the minY is found through iteration .
     e. Finally we substitute, the mean values and calculted X values to finally calculate the X coordinates.
     f. Finally with calculated X coordiantes and y , we draw the lines.
+ 
+  The image  after applying hough tranform and extrapolation is shown below:
+ 
+ ![alt text][image6]
+ 
+ 6.Finally we add the original image to the lines obatained through extrapolation as mentioned in point 5. 
+ And below is the output.
+ 
+ ![alt text][image5]    
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
-
-
-![alt text][image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
