@@ -20,6 +20,12 @@ The goals / steps of this project are the following:
 ---
 
 
+[//]: # (Image References)
+
+[image2]: ./examples/line-segments-example.jpg "Grayscale"
+
+---
+
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
@@ -51,6 +57,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 ![alt text][image1]
 
+
+
+![alt text][image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
