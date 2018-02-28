@@ -18,6 +18,12 @@ The goals / steps of this project are the following:
 [image1]: ./examples/grayscale.jpg "Grayscale"
 ---
 
+[//]: # (Image References)
+
+[image2]: ./output_imagesWrite.md/canny_edges.jpg "canny_edges"
+
+---
+
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
@@ -49,11 +55,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 ![alt text][image1]
 ![alt text][image2]
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-![alt text][image6]
-![alt text][image7]
+
 
 
 ### 2. Identify potential shortcomings with your current pipeline
