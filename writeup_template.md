@@ -59,7 +59,7 @@ My pipeline consisted of 6 steps. The step5 covers the explanation of draw_lines
 
 1. First, I converted the input image to grayscale image. The image is shown below:
 
-![alt text][image1]
+ ![alt text][image1]
 
 2. Then gaussian blur was applied to reduce the noise. The output of the gausiian image is :
 
@@ -89,7 +89,7 @@ So we mask the image, use fillPoly function to fill the pixels inside the image 
     e. Finally we substitute, the mean values and calculted X values to finally calculate the X coordinates.
     f. Finally with calculated X coordiantes and y , we draw the lines.
  
- The image  after applying hough tranform and extrapolation is shown below:
+  The image  after applying hough tranform and extrapolation is shown below:
  
  ![alt text][image6]
  
