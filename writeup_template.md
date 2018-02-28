@@ -26,6 +26,36 @@ The goals / steps of this project are the following:
 
 ---
 
+[//]: # (Image References)
+
+[image3]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image4]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image5]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image6]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+
+---
+
+[//]: # (Image References)
+
+[image7]: ./output_imagesWrite.md/gray.jpg "Grayscale"
+
+---
+
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
@@ -61,6 +91,20 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 ![alt text][image2]
 
+
+![alt text][image3]
+
+
+![alt text][image4]
+
+
+![alt text][image5]
+
+
+![alt text][image6]
+
+
+![alt text][image7]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
