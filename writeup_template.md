@@ -55,7 +55,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. The step5 covers the explanation of draw_lines function was modified.
+My pipeline consisted of 6 steps. The step5 covers the explanation of draw_lines function was modified.
 
 1. First, I converted the input image to grayscale image. The image is shown below:
 
@@ -92,30 +92,8 @@ So we mask the image, use fillPoly function to fill the pixels inside the image 
  The image  after applying hough tranform and extrapolation is shown below:
  ![alt text][image6]
  
- 6.    Finally we add the original image to the lines obatained through extrapolation as mentioned in point 5. And below is the output.
-![alt text][image5]    
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
-
-
-![alt text][image2]
-
-
-![alt text][image3]
-
-
-![alt text][image4]
-
-
-![alt text][image5]
-
-
-![alt text][image6]
+ 6.Finally we add the original image to the lines obatained through extrapolation as mentioned in point 5. And below is the output.
+ ![alt text][image5]    
 
 
 
