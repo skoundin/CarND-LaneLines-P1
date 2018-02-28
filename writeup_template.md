@@ -16,12 +16,6 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: ./output_imagesWrite.md/canny_edges.jpg "canny_edges"
-[image3]: ./output_imagesWrite.md/gray.jpg "gray"
-[image4]: ./output_imagesWrite.md/masked_image.jpg "masked_image"
-[image5]: ./output_imagesWrite.md/gaussian_Blur.jpg "gaussaian_Blur"
-[image6]: ./output_imagesWrite.md/final.jpg "final"
-[image7]: ./output_imagesWrite.md/hough+extrapolation.jpg "hough+extra"
 ---
 
 ### Reflection
