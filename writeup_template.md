@@ -18,11 +18,6 @@ The goals / steps of this project are the following:
 [image1]: ./examples/grayscale.jpg "Grayscale"
 ---
 
-[//]: # (Image References)
-
-[image2]: /output_imagesWrite.md/canny_edges.jpg "canny_edges"
-
----
 
 ### Reflection
 
