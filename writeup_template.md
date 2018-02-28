@@ -23,7 +23,8 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps.
+My pipeline consisted of 5 steps. The step5 covers the explanation of draw_lines function was modified.
+
 1. First, I converted the input image to grayscale image.
 2. Then gaussian blur was applied to reduce the noise.
 3. After the gausian blur,  cany edge detection Algorithm was applied to detect edges from the blurred image.
@@ -53,13 +54,14 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+I see below shortcomings on the project.
+1. As the lanes start turning, the left and right lanes sometimes looks like they are converging.
+   The extrapolated lines tend to converge.
+2. Another shortcoming is on the challenge video.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to to see how extrapolation of lines could be made more efficient.
 
-Another potential improvement could be to ...
+Another potential improvement could be to explore on the challenge video. Currently the extrapolation of lines doesnot work for challenge video.
