@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image2]: ./output_imagesWrite.md/canny_edges.jpg "canny_edges"
+[image2]: /output_imagesWrite.md/canny_edges.jpg "canny_edges"
 
 ---
 
